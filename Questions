@@ -60,7 +60,17 @@ def return_random(value):
 
 return_random("two")
 
-#question: ---------------------------------------
+#question: --------------------------------------
+
+class Color:
+    def __init__(self, rgb_value):
+        self.rgb_value = rgb_value
+
+c = Color('#00ff66')
+
+c.rgb_value
+
+#question: ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 day = 'monday'
 if day =='friday':
@@ -116,16 +126,6 @@ numbers = [9, 2, 5, 11, 4, 3]
 smallest = min(numbers)
 
 print(smallest)
-
-#question: --------------------------------------
-
-class Color:
-    def __init__(self, rgb_value):
-        self.rgb_value = rgb_value
-
-c = Color('#00ff66')
-
-c.rgb_value
 
 #question: --------------------------------------
 
