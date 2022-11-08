@@ -107,4 +107,18 @@ print(smallest)
 
 #14ª question: --------------------------------------
 
+class Color:
+    def __init__(self, rgb_value):
+        self.rgb_value = rgb_value
+
+c = Color('#00ff66')
+
+c.rgb_value
+
 #15ª question: --------------------------------------
+
+with open('hello.txt', 'w') as file:
+  file.write("hello!")
+
+print(file.closed)
+
