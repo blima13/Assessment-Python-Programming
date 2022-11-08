@@ -1,4 +1,4 @@
-#1ª question: ---------------------------------------
+#question: ---------------------------------------
 
 class Person:
     def __init__(self, name):
@@ -8,7 +8,7 @@ m = Person('Michael')
 
 m.name
 
-#2ª question: ---------------------------------------
+#question: ---------------------------------------
 
     def __init__(self):
         pass
@@ -18,29 +18,33 @@ m.name
 d = Dog()
 d.bark()
 
-#3ª question: ---------------------------------------
+#question: ---------------------------------------
 
 def double_number(n):
     return n * 2
 
 double_number(4)
 
-#4ª question: ---------------------------------------
+#question: ---------------------------------------
 
 def add(a, b = 10):
     return a + b
 
 add(20)
 
-#5ª question: ---------------------------------------
+#question: --------------------------------------   
+ 
+ class Planet:
+    def __init__(self, name, diameter_km):
+        self.name = name
+        self.diameter_km = diameter_km
+        
+e = Planet('Earth',12742)
 
-day = 'monday'
-if day =='friday':
-    print('It is Friday!')
-else:
-    print('It is not Friday!')
-    
-#6ª question: ---------------------------------------
+
+e.name, e.diameter_km
+ 
+#question: ---------------------------------------
 
 def multiply(a, b):
     return a * b
@@ -49,14 +53,22 @@ x = multiply(3, 4)
 
 x
 
-#7ª question: ---------------------------------------
+#question: ---------------------------------------
 
 def return_random(value):
     return value
 
 return_random("two")
 
-#8ª question: ---------------------------------------
+#question: ---------------------------------------
+
+day = 'monday'
+if day =='friday':
+    print('It is Friday!')
+else:
+    print('It is not Friday!')
+    
+#question: ---------------------------------------
 
 book = {
     'title': 'The Giver',
@@ -68,7 +80,7 @@ book['rating'] = 4.6
 
 book['rating']
 
-#9ª question: ---------------------------------------
+#question: ---------------------------------------
 
 i = 0
 
@@ -76,13 +88,13 @@ while i < 5:
   print(i)
   i = i + 1
   
-#10ª question: --------------------------------------
+#question: --------------------------------------
 
 x = "banana"
 
 x.count('a')
 
-#11ª question: --------------------------------------
+#question: --------------------------------------
 
 import numpy as np
 
@@ -91,13 +103,13 @@ z = np.array([2, 3, 4])
 
 t * z
 
-#12ª question: --------------------------------------
+#question: --------------------------------------
 
 lst = ['numpy', 'pandas', 'scipy', 'scikit-learn', 'requests', 'django']
 
 lst[1]
 
-#13ª question: --------------------------------------
+#question: --------------------------------------
 
 numbers = [9, 2, 5, 11, 4, 3]
 
@@ -105,7 +117,7 @@ smallest = min(numbers)
 
 print(smallest)
 
-#14ª question: --------------------------------------
+#question: --------------------------------------
 
 class Color:
     def __init__(self, rgb_value):
@@ -115,10 +127,28 @@ c = Color('#00ff66')
 
 c.rgb_value
 
-#15ª question: --------------------------------------
+#question: --------------------------------------
 
 with open('hello.txt', 'w') as file:
   file.write("hello!")
 
 print(file.closed)
 
+#question: --------------------------------------
+
+w = 'python'
+
+w_iterator = iter(w)
+next(w_iterator)
+
+#question: --------------------------------------
+
+letters = ['a', 'b', 'c']
+for ii,x in enumerate(letters):
+    print(ii, ": ", x)
+
+#question: --------------------------------------
+vals = [25, 30, 33, 35, 40, 180]
+new_vals = [val+32 for val in vals]
+
+print(new_vals)
