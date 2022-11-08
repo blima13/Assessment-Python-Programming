@@ -1,9 +1,110 @@
-#First question:
+#1ª question: ---------------------------------------
 
 class Person:
-    def __str__(self, name):
+    def __init__(self, name):
         self.name = name
 
 m = Person('Michael')
 
-print(m.name)
+m.name
+
+#2ª question: ---------------------------------------
+
+    def __init__(self):
+        pass
+
+    def bark(self):
+        return "bark bark bark bark bark bark..."
+d = Dog()
+d.bark()
+
+#3ª question: ---------------------------------------
+
+def double_number(n):
+    return n * 2
+
+double_number(4)
+
+#4ª question: ---------------------------------------
+
+def add(a, b = 10):
+    return a + b
+
+add(20)
+
+#5ª question: ---------------------------------------
+
+day = 'monday'
+if day =='friday':
+    print('It is Friday!')
+else:
+    print('It is not Friday!')
+    
+#6ª question: ---------------------------------------
+
+def multiply(a, b):
+    return a * b
+
+x = multiply(3, 4)
+
+x
+
+#7ª question: ---------------------------------------
+
+def return_random(value):
+    return value
+
+return_random("two")
+
+#8ª question: ---------------------------------------
+
+book = {
+    'title': 'The Giver',
+    'author': 'Lois Lowry',
+    'rating': 4.13
+}
+
+book['rating'] = 4.6
+
+book['rating']
+
+#9ª question: ---------------------------------------
+
+i = 0
+
+while i < 5:
+  print(i)
+  i = i + 1
+  
+#10ª question: --------------------------------------
+
+x = "banana"
+
+x.count('a')
+
+#11ª question: --------------------------------------
+
+import numpy as np
+
+t = np.array([10, 20, 30])
+z = np.array([2, 3, 4])
+
+t * z
+
+#12ª question: --------------------------------------
+
+lst = ['numpy', 'pandas', 'scipy', 'scikit-learn', 'requests', 'django']
+
+lst[1]
+
+#13ª question: --------------------------------------
+
+numbers = [9, 2, 5, 11, 4, 3]
+
+smallest = min(numbers)
+
+print(smallest)
+
+#14ª question: --------------------------------------
+
+#15ª question: --------------------------------------
