@@ -70,6 +70,18 @@ c = Color('#00ff66')
 
 c.rgb_value
 
+#question: --------------------------------------
+
+class AstroBody:
+    description = 'Natural entity in the observable universe.'    
+
+class Star(AstroBody):
+    pass
+
+sun = Star()
+
+sun.description
+
 #question: ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 day = 'monday'
@@ -89,6 +101,17 @@ book = {
 book['rating'] = 4.6
 
 book['rating']
+
+#question: ---------------------------------------
+
+d = {
+    'one': 1,
+    'two': 2,
+    'three': 3,
+    'four': 4
+}
+
+d['two']
 
 #question: ---------------------------------------
 
